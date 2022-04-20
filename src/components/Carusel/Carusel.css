@@ -1,0 +1,32 @@
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    height: 350px;
+}
+.window{
+    display: flex;
+    height: 100%;
+    width: 80%;
+    overflow: hidden;
+}
+.all-items{
+    height: 100%;
+    display: flex;
+    transition: translate;
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+
+}
+.left{
+    background-color: transparent;
+    border: none;
+
+}
+.right{
+    background-color: transparent;
+    border: none;
+}

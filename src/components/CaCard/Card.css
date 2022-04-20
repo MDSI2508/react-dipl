@@ -1,0 +1,32 @@
+.card-i{
+    height: 100%;
+    width:100%;
+}
+.card-text{
+    display: flex;
+    width: 85%;
+    bottom: 0.5rem;
+    left:0.2rem;
+    border-radius: 12px;
+    position: absolute;
+    background: #F8FFFE;
+}
+
+.card-b{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    height: 40%;
+    bottom: -0.3rem;
+    right: -0.3rem;
+    border-radius: 9px;
+    background: #062623;
+}
+.card-c{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}

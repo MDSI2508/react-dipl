@@ -1,0 +1,45 @@
+.section{
+
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.gang {
+
+    width: 100px;
+    height: 100px;
+}
+
+.headers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.area {
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+}
+.new{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+.btn-g{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+.bt-d{
+    width: 40%;
+    margin: 15px;
+}
+.item-g{
+    border-radius: 10px;
+    padding: 10px;
+    border: black solid 1px;
+    width: 30%;
+    margin-left: 20px;
+}
